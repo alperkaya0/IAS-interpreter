@@ -1,6 +1,6 @@
 # IAS-interpreter
 1-You cannot use address modifiers <br>
-2-You should use ( line number - 1 ) instead of address hex while using JUMP and JUMP+ <br>
+2-You should use ( line number - 1 ) instead of address hex while using JUMP and JUMP+ (without L, R. Check the example program)<br>
 3-Write JUMP+ while using conditional jump instead of JUMP +(don't put space between JUMP and plus sign) <br>
 4-Multiplying with negative numbers is problematic. <br>
 <br>
