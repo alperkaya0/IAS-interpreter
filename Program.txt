@@ -1,4 +1,4 @@
-MOV 7 // this is a comment
+MOV 7 // This is a program to calculate the 2 to the power of n (n=7 here)
 STOR M(0FA)
 MOV 1 // (AC=1)
 STOR M(0FB) // (M[0FB]=AC=1)
