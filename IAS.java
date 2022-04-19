@@ -82,7 +82,7 @@ public class IAS {
             }
             if (argz[1].startsWith("-M(")) {
                 String loc = argz[1].substring(3, argz[1].length()-1);
-                regAC = "-" + usableMemory.get(loc);
+                regAC = String.valueOf(Integer.parseInt(usableMemory.get(loc)) * -1);
             }
             if (argz[1].startsWith("|M(")) {
                 String loc = argz[1].substring(2, argz[1].length()-1);
